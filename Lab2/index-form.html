@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form Elements</title>
+        <link rel="stylesheet" href="css/style-form.css" type="text/css">
+    </head>
+    <body class="body">
+        <div class ="container">
+        <form>
+        <h1 id="heading">HTML Form Elements</h1>
+        <label for="name" class="label">Tên:</label>
+        <input name="username" id="name" type = "text" class="txt"> <br><br>
+
+        <label for="age" class="label">Tuổi:</label>
+        <input name="userage" id="age" type="text" class="txt"> <br><br>
+
+        <label for="country" class="label">Quốc gia:</label>
+        <select id="country" class="selectbox">
+            <option value="vn">Việt Nam</option>
+            <option value="usa">Mỹ</option>
+            <option value="eng">Anh</option>
+            <option value="fr">Pháp</option>
+        </select><br><br>
+
+        <label for="Birthday" class="label">Ngày sinh:</label>
+        <input type = "date" class="selectbox"><br><br>
+
+        <label for="isMarried" class="label">Tình trạng hôn nhân:</label>
+        <input type="checkbox" id="isMarried" name="isMarried"><br><br>
+
+        <label for="gender" class="label">Giới tính:</label><br>
+        <label for="fermale">Nam</label>
+        <input type="radio" id="fermale" name="fermale">
+        <label for="male">Nữ</label>
+        <input type="radio" id="male" name="male">
+        <label for="else">Khác</label>
+        <input type="radio" id="else" name="else"><br><br>
+    
+        <label for="note" class="label">Ghi chú thêm:</label><br>
+        <textarea name="note" id="note" cols="20" rows="2" class="txt"></textarea><br><br>
+
+        <label for="imgload" class="label">Ảnh căn cước công dân </label><br>
+        <input type="file" name="imgload" id="imgload" ></input><br><br>
+
+        <input type="button" class="btn" id="submitbtn" value="Gửi">
+        <input type="button" class="btn" id="resetbtn" value="Đặt lại">
+        </form>
+        </div>
+    </body>
+</html>
