@@ -1,0 +1,30 @@
+a{
+    color: orange;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    text-decoration-line: none;
+}
+div {
+    font-size: 150%;
+}
+div ::first-line{
+    color: red;
+}
+tr:nth-child(even){
+    background: #333;
+    color: white;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 30%;
+    border: 1px solid #ddd;
+}
+th , td{
+    text-align: left;
+    padding: 16px;
+}
+

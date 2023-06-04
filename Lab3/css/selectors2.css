@@ -1,0 +1,12 @@
+#head2{
+    background-color: yellow;
+}
+.alert{
+    border: 1px solid gray;
+}
+.start{
+    background-color: red;
+}
+.go{
+    background-color: green;
+}
