@@ -1,0 +1,9 @@
+h2 + p{
+    color: red;
+}
+p + ul{
+    list-style-type: none;
+}
+ul[class] > li{
+    border-bottom: 1px solid red;
+}
